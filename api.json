@@ -2062,7 +2062,7 @@
                 {
                     "category": 1,
                     "name": "http-detect-range-support",
-                    "value": "0"
+                    "value": "1"
                 },
                 {
                     "category": 1,
@@ -2117,7 +2117,7 @@
                 {
                     "category": 4,
                     "name": "opensles",
-                    "value": "1"
+                    "value": "0"
                 },
                 {
                     "category": 4,
