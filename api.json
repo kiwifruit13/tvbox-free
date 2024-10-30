@@ -1,5 +1,4 @@
 {
-  "spider": "./spider.jar;md5;ccaf6905bfd665982b4b091282d6c8b1"
   "sites": [
     {
       "key": "豆瓣",
@@ -1603,41 +1602,6 @@
       }
     },
     {
-      "name": "线路0",
-      "type": 0,
-      "url": "https://h5.freejson.xyz/player/?url="
-    },
-    {
-      "name": "线路4",
-      "type": 0,
-      "url": "http://vip.26db.cn/g/?url="
-    },
-    {
-      "name": "SSL1",
-      "type": 1,
-      "url": "https://jx.jsonplayer.com/player/?url=",
-      "ext": {
-        "header": {
-          "user-agent": "Mozilla/5.0 (Linux; Android 13; V2049A Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/116.0.0.0 Mobile Safari/537.36"
-        }
-      }
-    },
-    {
-      "name": "线路8",
-      "type": 0,
-      "url": "https://jx.m3u8.pw/?url="
-    },
-    {
-      "name": "线路9",
-      "type": 0,
-      "url": "https://jx.m3u8.tv/jiexi/?url="
-    },
-    {
-      "name": "线路10",
-      "type": 0,
-      "url": "https://www.ckplayer.vip/jiexi/?url="
-    },
-    {
       "name": "线路5",
       "type": 0,
       "url": "https://jx.aidouer.net/?url=",
@@ -1654,24 +1618,14 @@
       "url": "https://www.8090g.cn/?url="
     },
     {
-      "name": "线路11",
+      "name": "线路9",
       "type": 0,
-      "url": "http://xn--ihqu10cn4c.xn--z7x900a.live/jx.php?id=2&url="
+      "url": "https://jx.m3u8.tv/jiexi/?url="
     },
     {
-      "name": "线路12",
+      "name": "线路10",
       "type": 0,
-      "url": "http://pan.qiaoji8.com/tvbox/neibu.php?url="
-    },
-    {
-      "name": "线路13",
-      "type": 0,
-      "url": "http://pan.qiaoji8.com/tvbox/gouzi.php?url="
-    },
-    {
-      "name": "SSL3",
-      "type": 0,
-      "url": "https://jx.777jiexi.com/player/?url="
+      "url": "https://www.ckplayer.vip/jiexi/?url="
     }
   ],
   "flags": [
@@ -1741,7 +1695,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "1"
+          "value": "0"
         },
         {
           "category": 1,
@@ -1786,7 +1740,7 @@
         {
           "category": 1,
           "name": "dns_cache_timeout",
-          "value": "300"
+          "value": "600000000"
         }
       ]
     },
@@ -1821,7 +1775,7 @@
         {
           "category": 1,
           "name": "http-detect-range-support",
-          "value": "1"
+          "value": "0"
         },
         {
           "category": 1,
@@ -1866,7 +1820,7 @@
         {
           "category": 1,
           "name": "dns_cache_timeout",
-          "value": "180"
+          "value": "600000000"
         }
       ]
     }
